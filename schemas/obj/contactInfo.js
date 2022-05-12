@@ -14,6 +14,11 @@ export default {
       title: 'Twitter'
     },
     {
+      name: 'github',
+      type: 'string',
+      title: 'Github'
+    },
+    {
       name: 'email',
       type: 'email',
       title: 'Email'
