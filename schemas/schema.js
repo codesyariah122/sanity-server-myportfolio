@@ -4,6 +4,12 @@ import createSchema from 'part:@sanity/base/schema-creator'
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
+// blog schema import
+import blockContent from './blogs/blockContent'
+import categoryBlog from './blogs/category'
+import post from './blogs/post'
+import author from './blogs/author'
+
 // docs schema import
 import category from './docs/category'
 import person from './docs/person'
@@ -33,6 +39,11 @@ export default createSchema({
 
     category,
     person,
-    sampleProject
+    sampleProject,
+
+    post,
+    author,
+    categoryBlog,
+    blockContent
   ]),
 })
