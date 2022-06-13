@@ -14,6 +14,7 @@ import author from './blogs/author'
 import category from './docs/category'
 import person from './docs/person'
 import sampleProject from './docs/sampleProject'
+import skillProgramming from './docs/skillProgramming'
 
 // object schema
 import bioPortableText from './obj/bioPortableText'
@@ -40,6 +41,7 @@ export default createSchema({
     category,
     person,
     sampleProject,
+    skillProgramming,
 
     post,
     author,
