@@ -19,6 +19,11 @@ export default {
       }
     },
     {
+      name: 'jobdesk',
+      title: 'Jobdesk',
+      type: 'string'
+    },
+    {
       name: 'image',
       title: 'Image',
       type: 'figure'
