@@ -15,6 +15,11 @@ export default {
       description: 'Some frontend will require a slug to be set to be able to show the project'
     },
     {
+      name: 'color',
+      title: 'Color',
+      type: 'string'
+    },
+    {
       name: 'mainImage',
       title: 'Main image',
       type: 'figure'
@@ -25,10 +30,12 @@ export default {
       title: 'title',
       percentage: 'percentage'
     },
-    prepare({title = 'No title', percentage=0}) {
+    prepare({title = 'No title', percentage=0, mainImage=null, color=null}) {
       return {
         title,
-        percentage
+        percentage,
+        mainImage,
+        color
       }
     }
   }
