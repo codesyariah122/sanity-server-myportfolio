@@ -28,7 +28,9 @@ export default {
   preview: {
     select: {
       title: 'title',
-      percentage: 'percentage'
+      percentage: 'percentage',
+      mainImage: 'mainImage',
+      color: 'color'
     },
     prepare({title = 'No title', percentage=0, mainImage=null, color=null}) {
       return {
