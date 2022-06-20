@@ -29,6 +29,11 @@ export default {
       type: 'figure'
     },
     {
+      name: 'aboutImage',
+      title: 'About Image',
+      type: 'figure'
+    },
+    {
       name: 'contactInfo',
       type: 'contactInfo',
       title: 'Contact information'
@@ -42,7 +47,8 @@ export default {
   preview: {
     select: {
       title: 'name',
-      media: 'image'
+      media: 'image',
+      media: 'aboutImage'
     }
   }
 }

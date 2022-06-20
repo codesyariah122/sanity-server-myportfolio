@@ -29,15 +29,15 @@ export default {
     select: {
       title: 'title',
       percentage: 'percentage',
-      mainImage: 'mainImage',
-      color: 'color'
+      color: 'color',
+      mainImage: 'mainImage'
     },
-    prepare({title = 'No title', percentage=0, mainImage=null, color=null}) {
+    prepare({title = 'No title', percentage=0,  color=null, mainImage=null}) {
       return {
         title,
         percentage,
-        mainImage,
-        color
+        color,
+        mainImage
       }
     }
   }
