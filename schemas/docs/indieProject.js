@@ -1,8 +1,8 @@
 import {parseISO,format} from 'date-fns'
 
 export default {
-  name: 'sampleProject',
-  title: 'Sample project',
+  name: 'indieProject',
+  title: 'Indie project',
   type: 'document',
   fields: [
     {

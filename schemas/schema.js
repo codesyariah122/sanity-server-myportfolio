@@ -14,6 +14,7 @@ import author from './blogs/author'
 import category from './docs/category'
 import person from './docs/person'
 import sampleProject from './docs/sampleProject'
+import indieProject from './docs/indieProject'
 import skillProgramming from './docs/skillProgramming'
 
 // object schema
@@ -22,6 +23,7 @@ import figure from './obj/figure'
 import projectMember from './obj/projectMember'
 import contactInfo from './obj/contactInfo'
 import projectPortableText from './obj/projectPortableText'
+import indiePortableText from './obj/indiePortableText'
 import simplePortableText from './obj/simplePortableText'
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -35,12 +37,14 @@ export default createSchema({
     figure,
     projectMember,
     projectPortableText,
+    indiePortableText,
     simplePortableText,
     contactInfo,
 
     category,
     person,
     sampleProject,
+    indieProject,
     skillProgramming,
 
     post,
