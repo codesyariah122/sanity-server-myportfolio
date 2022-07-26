@@ -24,6 +24,11 @@ export default {
       title: 'Email'
     },
     {
+      name: 'instagram',
+      type: 'string',
+      title: 'Instagram'
+    },
+    {
       name: 'phone',
       type: 'string',
       title: 'Phone'
