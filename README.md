@@ -1,5 +1,5 @@
 ## My Sanity  
-<img src=""/>
+<img src="https://raw.githubusercontent.com/codesyariah122/sanity-server-myportfolio/main/my-sanity-content-server.png"/>
 
 # Sanity Clean Content Studio
 
