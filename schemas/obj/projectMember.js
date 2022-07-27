@@ -21,11 +21,13 @@ export default {
           {title: 'Frontend Programmer', value: 'frontend-programmer'},
           {title: 'Backend Developer', value: 'backend-developer'},
           {title: 'Frontend Developer', value: 'frontend-developer'},
+          {title: 'Fullstack Developer', value: 'fullstack-developer'},
           {title: 'Devops', value: 'dev-ops'},
           {title: 'Designer', value: 'designer'},
           {title: 'Editor', value: 'editor'},
           {title: 'Manager', value: 'manager'},
-          {title: 'director', value: 'director'}
+          {title: 'Director', value: 'director'},
+          {title: 'Owner', value: 'owner'}
         ]
       }
     }
