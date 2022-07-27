@@ -17,10 +17,15 @@ export default {
       options: {
         layout: 'radio',
         list: [
+          {title: 'Backend Programmer', value: 'backend-programmer'},
+          {title: 'Frontend Programmer', value: 'frontend-programmer'},
+          {title: 'Backend Developer', value: 'backend-developer'},
+          {title: 'Frontend Developer', value: 'frontend-developer'},
+          {title: 'Devops', value: 'dev-ops'},
           {title: 'Designer', value: 'designer'},
-          {title: 'Developer', value: 'developer'},
           {title: 'Editor', value: 'editor'},
-          {title: 'Manager', value: 'manager'}
+          {title: 'Manager', value: 'manager'},
+          {title: 'director', value: 'director'}
         ]
       }
     }
