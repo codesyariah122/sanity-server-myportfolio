@@ -20,6 +20,7 @@ import skillProgramming from './docs/skillProgramming'
 // object schema
 import bioPortableText from './obj/bioPortableText'
 import figure from './obj/figure'
+import gallery from './obj/gallery'
 import projectMember from './obj/projectMember'
 import contactInfo from './obj/contactInfo'
 import projectPortableText from './obj/projectPortableText'
@@ -35,6 +36,7 @@ export default createSchema({
   types: schemaTypes.concat([
     bioPortableText,
     figure,
+    gallery,
     projectMember,
     projectPortableText,
     indiePortableText,

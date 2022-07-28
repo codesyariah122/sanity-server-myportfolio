@@ -56,7 +56,7 @@ export default {
        name: 'imagesGallery',
        title: 'Images gallery',
        type: 'array',
-       of: [{ type: 'image' }]
+       of: [{ type: 'gallery' }]
     },
 
     {
