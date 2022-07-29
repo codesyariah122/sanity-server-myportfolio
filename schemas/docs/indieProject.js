@@ -59,6 +59,12 @@ export default {
       of: [{type: 'reference', to: {type: 'category'}}]
     },
     {
+       name: 'imagesGallery',
+       title: 'Images gallery',
+       type: 'array',
+       of: [{ type: 'gallery' }]
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'projectPortableText'
