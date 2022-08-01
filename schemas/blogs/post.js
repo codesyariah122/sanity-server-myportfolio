@@ -24,6 +24,11 @@ export default {
       to: {type: 'author'}
     },
     {
+      name: 'excerpt',
+      title: 'Excerpt',
+      type: 'simplePortableText'
+    },
+    {
       name: 'mainImage',
       title: 'Main image',
       type: 'image',
