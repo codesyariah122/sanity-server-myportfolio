@@ -9,6 +9,7 @@ import blockContent from './blogs/blockContent'
 import categoryBlog from './blogs/category'
 import post from './blogs/post'
 import author from './blogs/author'
+import comment from './blogs/comment'
 
 // docs schema import
 import category from './docs/category'
@@ -52,6 +53,7 @@ export default createSchema({
     post,
     author,
     categoryBlog,
+    comment,
     blockContent
   ]),
 })
