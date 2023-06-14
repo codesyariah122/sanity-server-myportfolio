@@ -7,6 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // blog schema import
 import blockContent from './blogs/blockContent'
 import categoryBlog from './blogs/category'
+import Tags from './blogs/tags'
 import post from './blogs/post'
 import author from './blogs/author'
 import comment from './blogs/comment'
@@ -22,6 +23,7 @@ import skillProgramming from './docs/skillProgramming'
 import bioPortableText from './obj/bioPortableText'
 import figure from './obj/figure'
 import gallery from './obj/gallery'
+import links from './obj/links'
 import projectMember from './obj/projectMember'
 import contactInfo from './obj/contactInfo'
 import projectPortableText from './obj/projectPortableText'
@@ -38,6 +40,7 @@ export default createSchema({
     bioPortableText,
     figure,
     gallery,
+    links,
     projectMember,
     projectPortableText,
     indiePortableText,

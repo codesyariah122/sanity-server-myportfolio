@@ -42,6 +42,12 @@ export default {
       type: 'array',
       of: [{type: 'reference', to: {type: 'categoryBlog'}}]
     },
+    // {
+    //   name: 'tags',
+    //   titile: 'Tags',
+    //   type: 'array',
+    //   of: [{type: 'reference', to: {type: 'tags'}}]
+    // },
     {
       name: 'publishedAt',
       title: 'Published at',

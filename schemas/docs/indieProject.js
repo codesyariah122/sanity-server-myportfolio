@@ -70,6 +70,12 @@ export default {
       type: 'projectPortableText'
     },
     {
+      name: 'linksVideo',
+      title: 'Link Video',
+      type: 'array',
+      of: [{ type: 'links' }]
+    },
+    {
       name: 'relatedProjects',
       title: 'Related projects',
       type: 'array',

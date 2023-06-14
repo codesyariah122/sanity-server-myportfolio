@@ -52,6 +52,7 @@ export default {
       title: 'Main image',
       type: 'figure'
     },
+
     {
        name: 'imagesGallery',
        title: 'Images gallery',
@@ -69,6 +70,12 @@ export default {
       name: 'body',
       title: 'Body',
       type: 'projectPortableText'
+    },
+    {
+      name: 'linksVideo',
+      title: 'Link Video',
+      type: 'array',
+      of: [{ type: 'links' }]
     },
     {
       name: 'relatedProjects',
